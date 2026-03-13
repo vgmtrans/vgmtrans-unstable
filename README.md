@@ -1,27 +1,29 @@
-# VGMTrans Unstable
+# VGMTrans Next
 
-> [!WARNING]
-> These are test builds. They may be less stable than the regular VGMTrans release, and some things may not work correctly.
-> However, they may also contain new features or fixes for problems present in the latest stable release.
-
-[![Download unstable build](https://img.shields.io/badge/Download-Latest%20Unstable-f97316?style=for-the-badge)](https://github.com/vgmtrans/vgmtrans-unstable/releases/tag/unstable)
+[![Download next build](https://img.shields.io/badge/Download-Latest%20Next-f97316?style=for-the-badge)](https://github.com/vgmtrans/vgmtrans-next/releases/tag/unstable)
 [![Main repository](https://img.shields.io/badge/Source%20code-vgmtrans%2Fvgmtrans-1f6feb?style=for-the-badge)](https://github.com/vgmtrans/vgmtrans)
 
-This repository hosts the **latest** unstable builds of **VGMTrans** for Windows, macOS, and Linux. We provide them as a courtesy because GitHub may block direct download access for people who are not signed in.
+`vgmtrans-next` is the preview channel for **VGMTrans**. It publishes the latest automated builds for Windows, macOS, and Linux from the main [`vgmtrans/vgmtrans`](https://github.com/vgmtrans/vgmtrans) repository so you can try incoming fixes and features before the next stable release.
 
-The latest unstable build is published on the releases page of this repository. Builds are generated automatically from the main [`vgmtrans/vgmtrans`](https://github.com/vgmtrans/vgmtrans) repository.
+> [!WARNING]
+> These are test builds and may be less stable than the [current](https://github.com/vgmtrans/vgmtrans/releases) VGMTrans release.
+> They may include bugs, but they can also contain new features and fixes not yet available in the latest stable release.
 
-You are welcome to use unstable builds to try new features before they are promoted to a stable release.
+## Download
 
-## Looking For Stable Releases?
+- [Latest VGMTrans Next build](https://github.com/vgmtrans/vgmtrans-next/releases/tag/unstable)
+- [Stable VGMTrans releases](https://github.com/vgmtrans/vgmtrans/releases)
 
-Use the main VGMTrans releases page instead:
+## What This Repository Is For
 
-- [Stable releases](https://github.com/vgmtrans/vgmtrans/releases)
+- Previewing upcoming changes before they ship in a stable release
+- Downloading builds without being signed in to a GitHub account
+- Testing bug fixes and features and reporting feedback early
 
-## Reporting Problems
+## Reporting Issues
 
-If you hit a bug in an unstable build, please report it in the main project repository.
-Complete instructions are available here:
+If you run into a bug, please open an issue in the main repository:
 
 - [Issue tracker](https://github.com/vgmtrans/vgmtrans/issues)
+
+When possible, include the build version or commit shown on the release page so the problem is easier to track down.
